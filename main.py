@@ -17,7 +17,7 @@ import pytesseract
 
 
 options = Options()
-options.binary_location = "C:\Program Files\Firefox Developer Edition\firefox.exe"
+options.binary_location = "C:/Program Files/Firefox Developer Edition/firefox.exe"
 driver = webdriver.Firefox(options=options)
 
 r = RandomWords()
