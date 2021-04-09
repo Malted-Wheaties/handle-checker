@@ -1,5 +1,11 @@
 # Generate random word > Navigate to twitter page -> Screenshot -> Detect "profile not found" text in screenshot -> if valid username add to txt file
 
+"""
+TODO
+Re-evauluate variable naming
+Rewrite some comments for clarity & consistency
+"""
+
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
