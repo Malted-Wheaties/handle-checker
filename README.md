@@ -1,6 +1,12 @@
 # Handle Checker
 ## A script to check the availability of random words as twitter handles without using Twitter's public API.
 
+### Basic script flow:
+* Generate random word
+* Navigate to twitter page
+* Screenshot
+* Analyse text in screenshot
+* If unused username add to `txt` file
 
 ## Setup instructions
 ### Install the required PyPI packages;
