@@ -6,7 +6,7 @@
 * Navigate to twitter page
 * Screenshot
 * Analyse text in screenshot
-* If unused username add to `txt` file
+* Add available usernames to file
 
 ## Setup instructions
 ### Install the required PyPI packages;
