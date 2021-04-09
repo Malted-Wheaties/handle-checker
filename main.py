@@ -93,9 +93,9 @@ def CheckWord():
 
         if "This account doesn" in text:
             print("Available: " + random_word)
-            file = open("valid handles.txt", "a+")
-            file.write(random_word + "\n")
-            file.close()
+            f = open("valid handles.txt", "a+")
+            f.write(random_word + "\n")
+            f.close()
         else:
             print("Taken: " + random_word)
 
