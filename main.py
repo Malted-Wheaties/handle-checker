@@ -27,7 +27,7 @@ pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesserac
 
 
 def CheckWord():
-    # Return a single random wor
+    # Return a single random word
     random_word = r.get_random_word()
 
     # Uses the current firefox instance to navigate to the twitter profile
